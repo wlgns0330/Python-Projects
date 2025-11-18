@@ -9,7 +9,7 @@ service = Service(path)
 driver = webdriver.Chrome(service=service)
 driver.get(website)
 
-time.sleep(5)
+time.sleep(3)
 
 comments = driver.find_elements(By.CLASS_NAME, "wcc_TextContent__content")
 
