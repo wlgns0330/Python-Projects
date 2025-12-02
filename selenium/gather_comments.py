@@ -49,7 +49,6 @@ while website:
 
     print("Comment grabbed for:", episode)
         
-    
     try:
         website = driver.find_element(By.CSS_SELECTOR, 'a.pg_next._nextEpisode').get_attribute("href")
     except:
